@@ -1,3 +1,10 @@
+FASTSHIP - API DE GESTIÓN DE ENVÍOS
+
+CONFIGURACIÓN DEL ENTORNO (.env)
+Para ejecutar el proyecto correctamente, crear un archivo .env en la raíz del proyecto con el siguiente contenido:
+PORT=5000  
+MONGO_URI=conexion_mongodb
+
 DESCRIPCIÓN DEL PROYECTO
 - Este proyecto es una API REST desarrollada con Node.js, Express y MongoDB.
 - Permite gestionar envios mediante operaciones CRUD.
