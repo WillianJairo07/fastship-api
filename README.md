@@ -16,6 +16,19 @@ TECNOLOGÍAS
 - Mongoose.
 - Thunder Client.
 
+INSTALACIÓN Y EJECUCIÓN
+1. Clonar el repositorio:
+   git clone https://github.com/WillianJairo07/fastship-api.git
+2. Entrar al proyecto:
+   cd fastship-api
+3. Instalar dependencias:
+   npm install
+4. Crear archivo .env:
+   PORT=5000  
+   MONGO_URI=conexion_mongodb
+5. Ejecutar el servidor:
+   npm run dev
+
 ENDPOINTS
 POST    /api/envios      -> Crear envío  
 GET     /api/envios      -> Listar envíos  
